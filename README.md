@@ -1,14 +1,2 @@
-## react项目模版
-
-### 技术栈与库
-* react
-* redux
-* react-redux
-* redux-thunk
-* styled-components
-* immutable.js
-* react-router
-* redux-immutable
-
-### 具体使用方法  
-[document](https://qixiaobro.github.io/pages/JS/react-01.html)
+### 技术资源导航网站  
+使用react搭建的技术资源导航网站，将各种技术的官网、论坛、github仓库地址汇集在一处。

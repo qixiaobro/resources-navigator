@@ -68,7 +68,7 @@ class Header extends Component {
                 <Row>
                     <BottomWrapper>
                         <Col xs={{ span: 0 }} sm={{ span: 0 }} md={{ span: 0 }} lg={{ span: 4 }} xl={{ span: 4 }}></Col>
-                        <Col xs={{ span: 23, offset: 1 }} sm={{ span: 22, offset: 2 }} md={{ span: 22, offset: 2 }} lg={{ span: 16, offset: 0 }} xl={{ span: 16, offset: 0 }} style={{ height: 48, overflowX: 'auto' }}>
+                        <Col xs={{ span: 24, }} sm={{ span: 22, offset: 2 }} md={{ span: 22, offset: 2 }} lg={{ span: 16, offset: 0 }} xl={{ span: 16, offset: 0 }} style={{ height: 48, overflowX: 'auto' }}>
                             <ul style={{ minWidth: 375 }}>
                                 <ListItem>资源网站</ListItem>
                                 <ListItem>Github</ListItem>

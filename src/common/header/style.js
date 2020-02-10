@@ -41,6 +41,7 @@ export const ListItem = styled.li`
     line-height:48px;
     display: inline;
     color:#71777c;
+    cursor:pointer;
     &:hover{
         color:#1890ff
     }
@@ -69,6 +70,7 @@ export const ListNavItem = styled.li`
     padding:0 30px;
     line-height:64px;
     text-align:right;
+    cursor:pointer;
     .navlink{
         color:#71777c;
         &:hover{

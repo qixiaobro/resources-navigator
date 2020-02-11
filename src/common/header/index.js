@@ -70,10 +70,10 @@ class Header extends Component {
                         <Col xs={{ span: 0 }} sm={{ span: 0 }} md={{ span: 0 }} lg={{ span: 4 }} xl={{ span: 4 }}></Col>
                         <Col xs={{ span: 24, }} sm={{ span: 22, offset: 2 }} md={{ span: 22, offset: 2 }} lg={{ span: 16, offset: 0 }} xl={{ span: 16, offset: 0 }} style={{ height: 48, overflowX: 'auto' }}>
                             <ul style={{ minWidth: 375 }}>
-                                <ListItem>资源网站</ListItem>
-                                <ListItem>Github</ListItem>
-                                <ListItem>微博</ListItem>
-                                <ListItem>掘金</ListItem>
+                                <ListItem><Link to="/" className={'routerLink','routerActive'}>资源网站</Link></ListItem>
+                                <ListItem><Link to="/github" className={'routerLink'}>Github</Link></ListItem>
+                                <ListItem><Link to="/" className={'routerLink'}>微博</Link></ListItem>
+                                <ListItem><Link to="/" className={'routerLink'}>掘金</Link></ListItem>
                                 <ListItem style={{ float: 'right', marginRight: 28 }}>
                                     <Row>
                                         <Col xs={{ span: 0, }} sm={{ span: 0 }} md={{ span: 24 }} lg={{ span: 24 }} xl={{ span: 24 }}>

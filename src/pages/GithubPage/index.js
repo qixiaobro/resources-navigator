@@ -7,30 +7,149 @@
  */
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { ResourcesContaier, SideMenu, MenuList, Resource, ResourceTitle, ResourceList, ResourceItem, ItemLogo, ItemName, ItemDesc } from './style'
+import { GithubContainer, ProjectList, ProjectCard, ProjectName, ProjectDesc, ProjectTag } from './style'
 import { Link } from 'react-router-dom'
-import { Row, Col, Input, Icon, Drawer, Affix, Tooltip, Select } from 'antd';
+import { Row, Col, Tag, Icon, } from 'antd';
 
 class GithubPage extends Component {
     render() {
-        const { Option } = Select;
         return (
-            <ResourcesContaier>
+            <GithubContainer>
                 <Row>
                     <Col xs={{ span: 0 }} sm={{ span: 0 }} md={{ span: 0 }} lg={{ span: 4 }} xl={{ span: 4 }}></Col>
-                    <Col xs={{ span: 24 }} sm={{ span: 24 }} md={{ span: 24 }} lg={{ span: 16 }} xl={{ span: 16 }}>
-                        <Row>
-                            <Col xs={{ span: 0, offset: 0 }} sm={{ span: 0, offset: 0 }} md={{ span: 4, offset: 1 }} lg={{ span: 4, offset: 0 }} xl={{ span: 3, offset: 0 }} style={{ height: 64 }}>
-                            </Col>
-                            <Col xs={{ span: 22, offset: 2 }} sm={{ span: 22, offset: 2 }} md={{ span: 18, offset: 1 }} lg={{ span: 18, offset: 1 }} xl={{ span: 19, offset: 1 }}>
-
-                            </Col>
-                        </Row>
-
+                    <Col xs={{ span: 20,offset:4 }} sm={{ span: 20,offset:4 }} md={{ span: 20,offset:4 }} lg={{ span: 16,offset:0 }} xl={{ span: 16,offset:0 }}>
+                        <ProjectList>
+                            <ProjectCard>
+                                <ProjectName>
+                                    <Icon type="project" style={{ marginRight: 5 }} />resources-navigator
+                                </ProjectName>
+                                <ProjectDesc>
+                                    集合各种技术网站、博客、github项目
+                                </ProjectDesc>
+                                <ProjectTag>
+                                    <Row>
+                                        <Col span={10} style={{ color: '#52c41a' }}>
+                                            javascript
+                                        </Col>
+                                        <Col span={7}>
+                                            <Icon type="star" />
+                                        </Col>
+                                        <Col span={7}>
+                                            <Icon type="fork" />
+                                        </Col>
+                                    </Row>
+                                </ProjectTag>
+                            </ProjectCard>
+                            <ProjectCard>
+                                <ProjectName>
+                                    <Icon type="project" style={{ marginRight: 5 }} />resources-navigator
+                                </ProjectName>
+                                <ProjectDesc>
+                                    集合各种技术网站、博客、github项目
+                                </ProjectDesc>
+                                <ProjectTag>
+                                    <Row>
+                                        <Col span={10} style={{ color: '#52c41a' }}>
+                                            javascript
+                                        </Col>
+                                        <Col span={7}>
+                                            <Icon type="star" />
+                                        </Col>
+                                        <Col span={7}>
+                                            <Icon type="fork" />
+                                        </Col>
+                                    </Row>
+                                </ProjectTag>
+                            </ProjectCard>
+                            <ProjectCard>
+                                <ProjectName>
+                                    <Icon type="project" style={{ marginRight: 5 }} />resources-navigator
+                                </ProjectName>
+                                <ProjectDesc>
+                                    集合各种技术网站、博客、github项目
+                                </ProjectDesc>
+                                <ProjectTag>
+                                    <Row>
+                                        <Col span={10} style={{ color: '#52c41a' }}>
+                                            javascript
+                                        </Col>
+                                        <Col span={7}>
+                                            <Icon type="star" />
+                                        </Col>
+                                        <Col span={7}>
+                                            <Icon type="fork" />
+                                        </Col>
+                                    </Row>
+                                </ProjectTag>
+                            </ProjectCard>
+                            <ProjectCard>
+                                <ProjectName>
+                                    <Icon type="project" style={{ marginRight: 5 }} />resources-navigator
+                                </ProjectName>
+                                <ProjectDesc>
+                                    集合各种技术网站、博客、github项目
+                                </ProjectDesc>
+                                <ProjectTag>
+                                    <Row>
+                                        <Col span={10} style={{ color: '#52c41a' }}>
+                                            javascript
+                                        </Col>
+                                        <Col span={7}>
+                                            <Icon type="star" />
+                                        </Col>
+                                        <Col span={7}>
+                                            <Icon type="fork" />
+                                        </Col>
+                                    </Row>
+                                </ProjectTag>
+                            </ProjectCard>
+                            <ProjectCard>
+                                <ProjectName>
+                                    <Icon type="project" style={{ marginRight: 5 }} />resources-navigator
+                                </ProjectName>
+                                <ProjectDesc>
+                                    集合各种技术网站、博客、github项目
+                                </ProjectDesc>
+                                <ProjectTag>
+                                    <Row>
+                                        <Col span={10} style={{ color: '#52c41a' }}>
+                                            javascript
+                                        </Col>
+                                        <Col span={7}>
+                                            <Icon type="star" />
+                                        </Col>
+                                        <Col span={7}>
+                                            <Icon type="fork" />
+                                        </Col>
+                                    </Row>
+                                </ProjectTag>
+                            </ProjectCard>
+                            <ProjectCard>
+                                <ProjectName>
+                                    <Icon type="project" style={{ marginRight: 5 }} />resources-navigator
+                                </ProjectName>
+                                <ProjectDesc>
+                                    集合各种技术网站、博客、github项目
+                                </ProjectDesc>
+                                <ProjectTag>
+                                    <Row>
+                                        <Col span={10} style={{ color: '#52c41a' }}>
+                                            javascript
+                                        </Col>
+                                        <Col span={7}>
+                                            <Icon type="star" />
+                                        </Col>
+                                        <Col span={7}>
+                                            <Icon type="fork" />
+                                        </Col>
+                                    </Row>
+                                </ProjectTag>
+                            </ProjectCard>
+                        </ProjectList>
                     </Col>
                     <Col xs={{ span: 0 }} sm={{ span: 0 }} md={{ span: 0 }} lg={{ span: 4 }} xl={{ span: 4 }}></Col>
                 </Row>
-            </ResourcesContaier>
+            </GithubContainer>
         )
     }
 }

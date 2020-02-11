@@ -4,6 +4,7 @@ export const HeaderWrapper = styled.div`
     width:100%;
     height:112px;
     position:fixed;
+    z-index:1000;
     background-color:#fff;
     .WarpperRow{
         border-bottom:  1px solid #f4f4f5;
@@ -42,7 +43,16 @@ export const ListItem = styled.li`
     display: inline;
     color:#71777c;
     cursor:pointer;
-    &:hover{
+    // &:hover{
+    //     color:#1890ff
+    // }
+    .routerLink{
+        color:#71777c;
+        &:hover{
+            color:#1890ff
+        }
+    }
+    .routerActive{
         color:#1890ff
     }
 `
